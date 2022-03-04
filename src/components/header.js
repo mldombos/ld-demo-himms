@@ -8,7 +8,7 @@ export default function Header() {
       <img src={ld} className="mx-auto max-h-30" alt="logo" />
       </div>
       <div className="text-xl pb-4 lg:text-4xl">
-        <h1>Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-br from-ldyellow to-lddblue">SREcon</span>!</h1>
+        <h1>Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-br from-ldyellow to-lddblue">HIMMS</span>!</h1>
       </div>      
     </div>
   );
