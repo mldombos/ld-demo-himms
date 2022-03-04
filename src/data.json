@@ -1,0 +1,20 @@
+{
+  "flags": {
+    "SecretFeature": [
+      {
+        "values": [
+          "jgarrick@speed.com",
+          "mmorales@web.com"
+        ],
+        "variation": true
+      },
+      {
+        "values": [
+          "jan@office.com",
+          "keith@marketing.io"
+        ],
+        "variation": false
+      }
+    ]
+  }
+}
