@@ -6,9 +6,9 @@ const QRURL = "https://codyde.github.io/ld-demo-himms/";
 
 const qrCodeHome = () => {  
   return (
-    <div className="bg-white pb-4 px-3 my-4 lg:px-7 shadow-2xl">
+    <div className="mx-auto pb-4 px-3 my-4 lg:px-7 shadow-2xl">
       <div className="mt-4 qr-wrapper">
-        <QRCode size="128" value={QRURL} />
+        <QRCode size="225" value={QRURL} />
       </div>
     </div>
   )     

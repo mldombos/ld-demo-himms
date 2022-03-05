@@ -33,7 +33,7 @@ export default function Login() {
   };
   
   return (
-    <div className="flex justify-center items-center">
+    <div className="">
       <Toasts />
       <div className={`bg-ldgray w-full p-4 my-8 px-7 lg:px-14 shadow-2xl`}>
         <div className="pb-4">Submit a User Below</div>
