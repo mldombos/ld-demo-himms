@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { useLDClient } from "launchdarkly-react-client-sdk";
 import Toasts from "./toaster";
-import { deviceType, osName } from “react-device-detect”;
+import { deviceType, osName } from "react-device-detect";
 
 export default function Login() {
   const LDClient = useLDClient();

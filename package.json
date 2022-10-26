@@ -1,7 +1,7 @@
 {
   "name": "ld-demo-himms",
   "version": "0.1.0",
-  "homepage": "https://codyde.github.io/ld-demo-himms",
+  "homepage": "https://mldombos.github.io/ld-demo-himms/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
