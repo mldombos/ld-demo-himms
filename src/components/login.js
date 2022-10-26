@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { useLDClient } from "launchdarkly-react-client-sdk";
 import Toasts from "./toaster";
+import { deviceType, osName } from “react-device-detect”;
 
 export default function Login() {
   const LDClient = useLDClient();
@@ -12,6 +13,10 @@ export default function Login() {
 
   const user = {
     key: userState.username,
+    //dynamically set these custom attributes using the deviceType and osName selectors from the npm package
+    custom: {
+      device: deviceType,
+      operatingSystem: osName}
   };
 
   const submitUser = async (e) => {
