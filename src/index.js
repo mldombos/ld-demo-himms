@@ -11,9 +11,9 @@ import reportWebVitals from './reportWebVitals';
     clientSideID: '63598d947dbd630bc5d32a6a',
   });
     user: {
-      "key": "anon"
-      "name": MerrittD
-      "device": mdmacbookpro
+      "key": "1234"
+      "name": "MerrittD"
+      "device": "mdmacbookpro"
     };
 
 ReactDOM.render(
