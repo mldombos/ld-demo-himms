@@ -9,12 +9,13 @@ import reportWebVitals from './reportWebVitals';
 (async () => {
   const LDProvider = await asyncWithLDProvider({
     clientSideID: '63598d947dbd630bc5d32a6a',
-  });
     user: {
-      "key": "1234"
-      "name": "MerrittD"
-      "device": "mdmacbookpro"
-    };
+      key: "1234a",
+      name: "MerrittD",
+      device: "MDMacPro"
+    }
+    })
+  
 
 ReactDOM.render(
   <LDProvider>
@@ -23,7 +24,8 @@ ReactDOM.render(
 
   document.getElementById('root')
 );
-})();
+}) ();
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
