@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { deviceType, osName } from 'react-device-detect';
+import getUserId from "./util/getUserId";
 
 let id = getUserId();
 
